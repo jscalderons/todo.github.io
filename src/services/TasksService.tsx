@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Task from '../types/TaskType';
 
-const API_URL = 'http://127.0.0.1:8000/api';
+const API_URL = process.env.API_URL || 'http://146.190.198.27/api';
 
 const TasksService = {
   async getTasks(): Promise<Task[]> {
