@@ -26,7 +26,7 @@ const ListTaskPage = () => {
       }
       
       fetchTasks();
-    }, []);
+    });
 
     useEffect(() => {
       const filteredTasks = tasks.filter((task) =>
