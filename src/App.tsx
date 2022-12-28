@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import TaskContext from './stores/TaskContext';
@@ -35,18 +35,17 @@ const App = () => {
       deleteTask,
       updateTask,
     }}>
-      <Router>
-        <Switch>
-          {MainRoutes.map((route, index) => (
-            <Route
-              key={index}
-              path={route.path}
-              exact={route.exact}
-              children={<route.main />}
-            />
-          ))}
-        </Switch>
-      </Router>
+      <Switch>
+        {MainRoutes.map((route, index) => (
+          <Route
+            key={index}
+            path={route.path}
+            exact={route.exact}
+            children={<route.main />}
+          />
+        ))}
+      </Switch>
+
       <ToastContainer
         position="top-right"
         autoClose={5000}
