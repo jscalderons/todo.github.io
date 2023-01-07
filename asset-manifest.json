@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/todo.github.io/static/css/main.567cbf16.css",
-    "main.js": "/todo.github.io/static/js/main.26854406.js",
-    "static/js/787.8f35a634.chunk.js": "/todo.github.io/static/js/787.8f35a634.chunk.js",
-    "index.html": "/todo.github.io/index.html",
-    "main.567cbf16.css.map": "/todo.github.io/static/css/main.567cbf16.css.map",
-    "main.26854406.js.map": "/todo.github.io/static/js/main.26854406.js.map",
-    "787.8f35a634.chunk.js.map": "/todo.github.io/static/js/787.8f35a634.chunk.js.map"
+    "main.css": "/static/css/main.b92b995f.css",
+    "main.js": "/static/js/main.cd998a48.js",
+    "static/js/787.8f35a634.chunk.js": "/static/js/787.8f35a634.chunk.js",
+    "index.html": "/index.html",
+    "main.b92b995f.css.map": "/static/css/main.b92b995f.css.map",
+    "main.cd998a48.js.map": "/static/js/main.cd998a48.js.map",
+    "787.8f35a634.chunk.js.map": "/static/js/787.8f35a634.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.567cbf16.css",
-    "static/js/main.26854406.js"
+    "static/css/main.b92b995f.css",
+    "static/js/main.cd998a48.js"
   ]
 }
