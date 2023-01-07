@@ -6,17 +6,13 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'primary': 'rgba(0, 55, 101, 1)',
-      'primary-light': 'rgba(0, 55, 101, 0.3)',
-      'secondary': 'rgba(217, 217, 217, 1)',
-      'secondary-light': 'rgba(217, 217, 217, 0.3)',
-      'white': '#ffffff',
-      'dark': '#000000',
-      'red': colors.red,
-      'green': colors.green,
-      'blue': colors.blue,
-      'transparent': 'transparent',
-      'inherit': 'inherit',
+      'primary': colors.indigo,
+      'secondary': colors.zinc,
+      'success': colors.green,
+      'danger': colors.red,
+      'info': colors.blue,
+      'warning': colors.yellow,
+      ...colors
     },
     screens: {
       'sm': '640px',
