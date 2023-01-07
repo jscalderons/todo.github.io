@@ -3,3 +3,37 @@
 @tailwind utilities;
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+@layer components {
+  .input {
+    @apply bg-white text-black hover:border-black focus:border-black focus:outline-none placeholder:text-gray-400 placeholder:italic placeholder:font-light border rounded-md w-full px-4 py-2;
+  }
+
+  .input--sm {
+    @apply px-2 py-0.5;
+  }
+
+  .input[readonly] {
+    @apply border-none;
+  }
+
+  .btn {
+    @apply  bg-white text-black hover:border-black border rounded-md font-bold w-full px-4 py-2;
+  }
+
+  .btn-icon {
+    @apply bg-transparent border-none rounded-full w-8 h-8 flex items-center justify-center;
+  }
+
+  .btn-info {
+    @apply  bg-blue-400 text-white; 
+  }
+
+  .btn-danger {
+    @apply  bg-red-400 text-white; 
+  }
+
+  .btn-warning {
+    @apply  bg-amber-400; 
+  }
+}
